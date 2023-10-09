@@ -1,0 +1,26 @@
+.room-counter {
+    position: absolute;
+    top: 55px;
+    z-index: 2;
+    background: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+  .counter {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    color: grey;
+}
+
+.btn {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+}
+
+button {
+    color: black;
+    font-weight: 600;
+}

@@ -1,0 +1,49 @@
+/* Default styles for larger screens */
+.feature-wrap {
+   width: 100%;
+   max-width: 1024px;
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+   z-index: 1;
+}
+
+.feature.item {
+   position: relative;
+   color: white;
+   border-radius: 10px;
+   overflow: hidden;
+   height: 250px;
+   flex: 1;
+}
+
+img.featureImg {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.feature.title {
+   position: absolute;
+   bottom: 4px;
+   left: 20px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+   .feature-wrap {
+       flex-direction: column;
+       align-items: center;
+   }
+
+   .feature.item {
+       height: auto;
+       margin-bottom: 20px;
+   }
+
+   .feature.title {
+       position: static;
+       text-align: center;
+       margin-top: 10px;
+   }
+}

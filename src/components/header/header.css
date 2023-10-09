@@ -1,0 +1,98 @@
+.header {
+    display: flex;
+    background-color: #003b95;
+    justify-content: center;
+    color: white;
+    position: relative;
+}
+
+.headercontainer {
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+}
+
+ .listmode{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px;
+}
+
+.headeritem {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+   
+}
+
+.headerlist {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+
+   
+}
+.active{
+    padding: 10px;
+    border: 1px solid #ffff;
+    border-radius: 20px;
+}
+
+button.headerBtn {
+    border: none;
+    padding: 10px 15px;
+    background: #006ce4;
+    font-weight: 500;
+    color: white;
+}
+
+.serchBtn{
+    border: none;
+    padding: 10px 25px;
+    background: #006ce4;
+    font-weight: 500;
+    color: white;
+}
+
+h1.headerTitle {
+    margin-top: 30px;
+}
+
+p.headerDesc {
+    margin: 20px 0px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    background-color: white;
+    border: 3px solid #febb02;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+}
+svg.icon {
+    color: gray;
+}
+.searchitem {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+input.headerSearchInput {border: none;outline: none;}
+
+span.headerSearchText {
+    color: grey;
+}
+
+.date {
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+  }
